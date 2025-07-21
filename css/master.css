@@ -808,7 +808,7 @@ header .mega-menu .links li a i {
 
 .team .box .data img {
   border-radius: 10px;
-  max-width: 85%;
+  width: calc(100% - 60px);
   transition: var(--main-transition);
 }
 .team .box:hover .data img {
@@ -818,15 +818,19 @@ header .mega-menu .links li a i {
   display: flex;
   align-items: center;
   padding-top: 4em;
-  justify-content: space-between;
+  gap: 0.1em;
 }
 
-.team .box .data .social a {
+.team .box .data .social {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 60px;
   gap: 1em;
+}
+
+.team .box .data .social a {
   padding: 1em;
   color: #777;
   transition: var(--main-transition);
