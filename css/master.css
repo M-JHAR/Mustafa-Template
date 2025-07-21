@@ -808,7 +808,7 @@ header .mega-menu .links li a i {
 
 .team .box .data img {
   border-radius: 10px;
-  width: 100%;
+  max-width: 85%;
   transition: var(--main-transition);
 }
 .team .box:hover .data img {
@@ -818,7 +818,7 @@ header .mega-menu .links li a i {
   display: flex;
   align-items: center;
   padding-top: 4em;
-  gap: 0.2em;
+  justify-content: space-between;
 }
 
 .team .box .data .social a {
